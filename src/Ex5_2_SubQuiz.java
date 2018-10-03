@@ -50,6 +50,7 @@ public class Ex5_2_SubQuiz {
             long testTime = endTime - startTime;
 
             System.out.println("Correct count is " + correctCount + "\nTest time is " + testTime / 1000 + " seconds\n" + output);
+            //123
 
         }
 
