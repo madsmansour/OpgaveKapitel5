@@ -4,7 +4,7 @@ public class Ex5_2_SubQuiz {
 
     public static void main(String[] args) {
 
-        final int NUMBER_OF_QUESTIONS = 5; // number of questions
+        final int NUMBER_OF_QUESTIONS = 10; // number of questions
         int correctCount = 0; // Count the number of correct answers
         int count = 0; // count the number of questions
         long startTime = System.currentTimeMillis();
@@ -14,8 +14,8 @@ public class Ex5_2_SubQuiz {
         while (count < NUMBER_OF_QUESTIONS) {
             // 1. Genereate two random single-digit integers
 
-            int number1 = (int) (Math.random() * 10);
-            int number2 = (int) (Math.random() * 10);
+            int number1 = (int) (Math.random() * 15);
+            int number2 = (int) (Math.random() * 15);
 
             //2. if number 1 < number 2, swap number1 with number2
 
@@ -50,7 +50,7 @@ public class Ex5_2_SubQuiz {
             long testTime = endTime - startTime;
 
             System.out.println("Correct count is " + correctCount + "\nTest time is " + testTime / 1000 + " seconds\n" + output);
-            //123
+            
 
         }
 
