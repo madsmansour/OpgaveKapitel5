@@ -13,6 +13,8 @@ public class footToMeter {
         System.out.println(k);
         double p = meterToFoot(5);
         System.out.println(p);
+
+
     }
 
     public static double meterToFoot(double meter) {
@@ -20,4 +22,5 @@ public class footToMeter {
         foot = 3.279 * meter;
         return foot;
     }
+
 }
